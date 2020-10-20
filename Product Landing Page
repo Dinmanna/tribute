@@ -1,0 +1,110 @@
+<head>
+  <title>freeCodeCamp Product Landing Page</title>
+  <link href="https://freedesignfile.com/upload/2017/08/Woman-fashion-styles-illustration-vector-material-03.jpg"
+      rel="stylesheet">
+</head>
+
+<body>
+  <div id="product-price"> <!-- Overall page price -->
+    <header id="header"> <!-- Page Header -->
+      <img id="header-img" src="https://freedesignfile.com/upload/2017/08/Woman-fashion-styles-illustration-vector-material-03.jpg" alt="Fashion House Logo"/>
+      <h1>Fashion House Wears</h1> <!-- Page Title -->
+      <nav id="nav-bar"> <!-- Navigation Bar -->
+        <button><a class="nav-link" href="#Accessories">Accessories</a></button>
+        <button><a class="nav-link" href="#Dresses">Dresses</a></button>
+        <button><a class="nav-link" href="#Bags">Bags</a></button>
+      </nav>
+    </header>
+    <br>
+  
+    <div class="form-container"> <!-- Form Container -->
+      <h2>20% OFF EVERYTHING, <u>BUY NOW!</u></h2> <!-- Form Title -->
+      <p>Subscribe to our mailing list for new items!</p>
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Please enter your email:" required/>
+        <input id="submit" type="submit" value="Look fab now"/>
+      </form>
+    </div>
+    <br>
+ 
+    <div class="contents"> <!-- Content Container -->
+      <section id="features"> <!-- Features Section -->
+        <div class="list"> <!-- Quality Feature -->
+          <div class="icon">
+            <i class="material-icons">About Us</i>
+          </div>Accessories</h2>
+          </div>
+        </div>
+        <div class="list"> <!-- Fashion Feature -->
+          <div class="icon">
+            <i class="material-icons">color</i>
+          </div>
+          <div class="description">
+            <h2>Dresses</h2>
+          </div>
+        </div>
+        <div class="list"> <!-- Size Feature -->
+          <div class="icon">
+            <i class="material-icons">size</i>
+          </div>
+          <div class="description">
+            <h2>Bags</h2>
+          </div>
+        </div>
+      </section>
+      <br>
+      
+      <section id="Need Help"> <!-- Need Help -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X5Nvw8c41yM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <br>
+      
+      <section id="pricing"> <!-- Pricing Section -->
+        <div id="Accessories">
+          <div class="option">
+            Accessories type
+          </div>
+          <img src="https://images.summitmedia-digital.com/cosmo/images/articles/article/emerald_accessories_main-img.jpg" alt="Earrings, necklaces and rings" />
+          <h3>2,500 naira</h3>
+          <ul>
+            <li>Necklace</li>
+            <li>Earrings</li>
+            <li>Rings</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div id="Dresses">
+          <div class="option">
+            Dress Sizes
+          </div>
+          <img src="https://img3.junaroad.com/uiproducts/15881851/zoom_0-1547467381.jpg" alt="Sizes" />
+          <h3>10,000 naira</h3>
+          <ul>
+            <li>Size</li>
+            <li>Color</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+        <div id="Bags">
+          <div class="option">
+            Bags Color
+          </div>
+          <img src="https://images-eu.ssl-images-amazon.com/images/I/81koOae4wOL._AC_UL160_.jpg" alt="Origin Iridium Spark Plug" />
+          <h3>15,000 naira</h3>
+          <ul>
+            <li>Available in Black, Nude, Red and Green</li>
+          </ul>
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <br>
+      
+    </div>
+    <br>
+
+  </div>
+</body>
+
+<footer> <!-- Footer Section -->
+
+</footer>
