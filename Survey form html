@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <section>
+      <h1 id="title">ROOM REGISTRATION</h1>
+      <p id="description">Please fill in the form below with your details to check in </p>
+      <form id="survey-form" action="index.html" method="post">
+        <label for="" id="name-label">Enter First Name</label><br>
+        <input type="text" name="name" value="" id="name" placeholder="Enter your first name"><br><br>
+        <label for="" id="lastName-label">Enter Last Name</label><br>
+        <input type="text" name="" value="" id="lastName" placeholder="Enter your last name"><br><br>
+        <label for="" id="email-label">Enter email address</label><br>
+        <input type="email" name="" value="" id="email" placeholder="Enter your Email Address"><br><br>
+        <label for="" id="number-label">Enter your phone number</label><br>
+        <input type="tel" name="" value="" id="number" min="5" max="11" placeholder="Enter your phone number"><br><br>
+        <label for="" id="gender-label">Select your gender</label><br>
+        <select class="" name="">
+          <option value="">Male</option>
+          <option value="">Female</option>
+        </select><br><br>
+      <p>  <textarea name="name" rows="8" cols="80">Enter your special request</textarea></p>
+      <p>  <input type="submit" name="" value="Submit" class="button"></p>
+      </form>
+    </section>
+  </body>
+</html>
